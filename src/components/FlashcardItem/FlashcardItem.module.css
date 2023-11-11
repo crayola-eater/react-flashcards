@@ -1,0 +1,42 @@
+.flashcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2vmin;
+  background-color: var(--light-navy);
+  border: 1px solid var(--light-grey);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  color: var(--white);
+  position: relative;
+  gap: 2vmin;
+  min-height: 300px;
+}
+
+@media only screen and (min-width: 320px) {
+  .flashcard {
+    font-size: 1.5rem;
+  }
+
+  .emoji {
+    font-size: 2rem;
+  }
+}
+
+.deleteButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1vmin;
+  background-color: transparent;
+  border: none;
+  font-size: clamp(0.75rem, 4vmin, 1.5rem);
+  cursor: pointer;
+}
+
+.clicked {
+  background-color: var(--light-blue);
+  color: var(--white);
+}

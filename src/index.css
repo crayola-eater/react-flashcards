@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global CSS custom properties. */
+:root {
+  --white: #ffffff;
+  --light-navy: #323949;
+  --medium-navy: #232731;
+  --dark-navy: #16181f;
+  --light-blue: #06b1df;
+  --light-grey: #ccc1;
+}
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  background-color: var(--white);
+}

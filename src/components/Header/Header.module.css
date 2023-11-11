@@ -1,0 +1,20 @@
+.header {
+  background-color: var(--dark-navy);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3vmin;
+  padding: 4vmin;
+}
+
+.header img {
+  display: none;
+}
+
+@media only screen and (min-width: 500px) {
+  .header img {
+    display: flex;
+  }
+}

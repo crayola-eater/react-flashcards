@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  font-size: 1.1rem;
+  color: var(--white);
+  background-color: var(--medium-navy);
+  flex: 1;
+  gap: 5vmin;
+}
+
+.flashcardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 5vmin;
+  padding: 5vmin;
+}
